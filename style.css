@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+/* Header Section Style */
+.header{
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/donation10.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 800px;
+  background-position: center;
+  background-size: cover;  
+}
+.header_md{
+  /* padding: 300px 500px; */
+  margin: 0 auto;
+  text-align: center;
+}
+.header_dt{
+  padding-top: 200px;
+}
+.header_title{
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 900;
+}
+.header_description{
+  color: #dfe4ea;
+  font-size: 20px;
+  margin: 30px 0;
+}
+.no_mid{
+  text-align: center;
+}
+.btn_donate{
+  color: #ffffff;
+  background-color: #ff6b81;
+  border: 0;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 10px 30px;
+  /* text-align: center; */
+  /* margin-left: 250px; */
+  border-radius: 10px;
+}
+
+/* Donate Today Section */
+.donate_today{
+  margin: 0 auto;
+  text-align: center;
+}
+.donate_today_title{
+  color: #2f3542;
+  font-weight: 900;
+  font-size: 50px;
+  margin-top: 100px;
+  /* text-align: center; */
+}
+.donate_today_description{
+  color: #2c313a4f;
+  font-size: 22px;
+  font-weight: 500;
+  /* text-align: center; */
+  margin-top: 30px;
+}
+
+/* Donation Amaount  */
+.donation_amaount{
+  display: flex;
+  gap: 25px;
+  /* margin-top: 40px; */
+  justify-content: center;
+  /* text-align: center; */
+  margin-top: 60px;
+}
+.tk{
+  /* display: inline-block; */
+  color: #0a0a0a;
+  background: #dfe4ea;
+  font-size: 30px;
+  font-weight: 800;
+  border-radius: 10px;
+  padding: 40px;
+  /* margin-top: 40px; */
+}
+.tk:hover{
+  border: 3px solid #ff6b81;
+  color: #ff6b81;
+  /* transition: 3s; */
+  /* transform: 3s; */
+}
+
+/* Our Donate Plan */
+.our_donate{
+  margin: 0 auto;
+  text-align: center;
+}
+.donate_contaniner{
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  margin-top: 75px;
+}
+.donate_plan{
+  box-shadow: 0px 10px 30px rgba(7, 7, 7, 0.561);
+  border-radius: 10px;
+  padding: 50px;
+  width: 300px;
+  height: 320px;
+}
+.donate_description{
+  color: #353b48;
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+h3{
+  font-size: 30px;
+  font-weight: 700;
+  color: #0a0a0a;
+  padding-top: 25px;
+}
+.family{
+  background: rgba(131, 204, 211, 0.222);
+}
+.shelter{
+  background: rgba(224, 145, 145, 0.286);
+}
+.child{
+  background: rgba(237, 228, 180, 0.294);
+}
+
+/* Their lives depend */
+.lives_depend{
+  margin-top: 150px;
+}
+.your_helps{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 200px;
+  gap: 40px;
+}
+.pepole_help{
+  border-radius: 10px;
+  height: 600px;
+  width: 800px;
+}
+.your_donation{
+  width: 800px;
+}
+.donate{
+  margin-top: 75px;
+}
+
+/* Get My Updates */
+.get_updates{
+  max-width: 900px;
+  height: 160px;
+  background: rgba(238, 212, 107, 0.645);
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding-top: 150px;
+}
+.email{
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background: rgba(48, 53, 64, 0.401);
+  border: 0;
+  border-radius: 5px;
+  height: 50px;
+  width: 350px;
+  padding-left: 18px;
+}
+.btn{
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  background: #ff6b81;
+  border: 0;
+  border-radius: 5px;
+  height: 50px;
+  width: 180px;
+}
+
+/* Humble section */
+.humble{
+  background: #0a0a0a;
+  height: 280px;
+  margin-top: 150px;
+}
+h4{
+  font-family: "Sofia", cursive;
+  font-size: 70px;
+  font-weight: bold;
+  color: #ff6b81;
+  text-align: center;
+  padding-top: 50px;
+}
+.humble_description{
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+}
